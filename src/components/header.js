@@ -9,6 +9,7 @@ export default function Header(props) {
                   marginBottom: '15rem' }}> 
       <h1 style={{ border: '3px solid green' }}>{props.headerText}</h1>
       <p>{props.caption}</p>
+      {props.children}
     </div>
     )
   }

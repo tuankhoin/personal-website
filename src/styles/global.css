@@ -7,4 +7,5 @@ div {
 html {
   background-color: lightblue;
   background-size: contain;
+  scroll-behavior: smooth;
 }

@@ -4,7 +4,7 @@ import "./layout.css"
 
 export default function Layout({ children }) {
   return (
-    <div style={{ margin: `3rem auto`, maxWidth: 650, padding: `0 1rem` }}>
+    <div style={{ margin: `3rem auto`, maxWidth: 750, padding: `0 1rem` }}>
       <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
         <div class="container">
             <span class="navbar-brand js-scroll-trigger"><Link to="/">Khoi's Webpage</Link></span>
