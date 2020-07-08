@@ -1,13 +1,12 @@
 import React from "react"
-import { Link } from "gatsby"
 import Header from "../components/header"
+import Layout from "../components/layout"
+import { Link } from "gatsby"
 
 export default function Contact() {
   return (
-    <div style={{ color: `teal` }}>
-      <Link to="/">Home</Link>
-      <Header headerText="Contact" />
-      <p>Send us a message!</p>
-    </div>
+    <Layout>
+      <Header headerText="Contact" caption = "Send us a message!" />
+    </Layout>
   )
 }
