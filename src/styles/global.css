@@ -9,3 +9,9 @@ html {
   background-size: contain;
   scroll-behavior: smooth;
 }
+
+a {
+  text-decoration: none;
+  background-image: none;
+  text-shadow: none;
+}
