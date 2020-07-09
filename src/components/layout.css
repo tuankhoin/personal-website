@@ -67,6 +67,25 @@ span:hover {
     opacity: 1;
 }
 
+.img > Link {
+    display: inline-block;
+    padding-top: 20%;
+    height: 193px;
+    width: inherit;
+    background-color: rgba(9, 64, 120, 0.537);
+    opacity: 0.0;
+    color: whitesmoke;
+    transition: opacity .5s ease;
+}
+
+.img > Link#bottom {
+    height: 200px;
+}
+
+.img:hover > Link {
+    opacity: 1;
+}
+
 .ibox:hover {
     opacity: 1;
 }

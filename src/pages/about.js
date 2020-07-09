@@ -6,8 +6,7 @@ export default function About() {
   return (
     <Layout>
       <div style={{ color: `teal` }}>
-        <Header headerText="About Gatsby" />
-        <p>Such wow. Very React.</p>
+        <Header headerText="Tuan-Khoi Nguyen (Khoi)" caption = "Continued below..."/>
       </div>
     </Layout>
   )

@@ -7,34 +7,34 @@ export default function Home() {
   return (
     <Layout>
       <Header headerText="Hello stranger!" caption = "Let's get started, shall we?"
-      children={<a href="#start" class="btn btn-info" role="button">Let's go!</a>} />
+      children={<a href="#start" className="btn btn-info" role="button">Let's go!</a>} />
 
       <section id = "start">
-        <div class="icontainer" style={{paddingTop: 20}}>
-          <div class="ibox">
-            <div class = "img" id = "ab" data-aos="fade-right"><a href="/about/">Who am I?</a></div>   
+        <div className="icontainer" style={{paddingTop: 20}}>
+          <div className="ibox">
+            <div className = "img" id = "ab" data-aos="fade-right"><Link to="/about/">Who am I?</Link></div>   
           </div>
           
-          <div class="ibox">
-            <div class = "img" id = "pj" data-aos="fade-right"><a href="/projects/">Projects</a></div>   
+          <div className="ibox">
+            <div className = "img" id = "pj" data-aos="fade-right"><Link to="/projects/">Projects</Link></div>   
           </div>
         </div>
-        <div class="icontainer" style={{marginTop: -7}}>
-          <div class="ibox">
-          <div class = "img" id = "pt" data-aos="fade-right"><a href="/photography/">Photo Gallery</a></div>   
+        <div className="icontainer" style={{marginTop: -7}}>
+          <div className="ibox">
+          <div className = "img" id = "pt" data-aos="fade-right"><Link to="/photography/">Photo Gallery</Link></div>   
           </div>
           
-          <div class="ibox">
-            <div class = "img" id = "ms" data-aos="fade-right"><a href="/music/">Music Gallery</a></div>            
+          <div className="ibox">
+            <div className = "img" id = "ms" data-aos="fade-right"><Link to="/music/">Music Gallery</Link></div>            
           </div>
         </div>
-        <div class="icontainer" style={{marginTop: -7}}>
-          <div class="ibox">
-          <div class = "img" id = "ct" data-aos="fade-right"><a href="/contact/" id="bottom">Contact</a></div>   
+        <div className="icontainer" style={{marginTop: -7}}>
+          <div className="ibox">
+          <div className = "img" id = "ct" data-aos="fade-right"><Link to="/contact/" id="bottom">Contact</Link></div>   
           </div>
           
-          <div class="ibox">
-            <div class = "img" id = "end" data-aos="fade-right"><a href="/" id="bottom">That's all!</a></div>            
+          <div className="ibox">
+            <div className = "img" id = "end" data-aos="fade-right"><Link to="/" id="bottom">That's all!</Link></div>            
           </div>
         </div>
       </section>
