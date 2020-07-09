@@ -9,10 +9,12 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `src`,
-        path: `${__dirname}/src/`,
+        name: `data`,
+        path: `${__dirname}/src/data/`,
       },
     },
+    `gatsby-transformer-remark`,
+    `gatsby-transformer-csv`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {

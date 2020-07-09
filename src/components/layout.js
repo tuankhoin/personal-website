@@ -8,7 +8,7 @@ export default function Layout({ children }) {
       <nav className="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
         <div className="container">
             <span className="navbar-brand js-scroll-trigger"><Link to="/">Khoi's Webpage</Link></span>
-            <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon"></span></button>
             <div className="collapse navbar-collapse" id="navbarResponsive">
                 <ul className="navbar-nav ml-auto my-2 my-lg-0">
                     <li className="nav-item"><Link to="/about/">About Me</Link></li>

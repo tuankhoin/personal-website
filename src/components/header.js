@@ -3,7 +3,7 @@ import React from "react"
 
 export default function Header(props) {
     return (
-    <div class = "header" style={{ textAlign: 'center',
+    <div className = "header" style={{ textAlign: 'center',
                   verticalAlign: 'center',
                   marginTop: '15rem',
                   marginBottom: '15rem' }}> 
