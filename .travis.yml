@@ -6,7 +6,7 @@ node_js:
 deploy:
   provider: script
   # Note: change "docs" to the directory where your gatsby-site lives, if necessary
-  script: cd C:\Users\HP OMEN 15\Desktop\Workspace\hello-world && yarn install && yarn run deploy
+  script: echo "skip test"# cd C:\Users\HP OMEN 15\Desktop\Workspace\hello-world && yarn install && yarn run deploy
   skip_cleanup: true
   on:
     branch: master
