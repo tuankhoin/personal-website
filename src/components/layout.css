@@ -12,7 +12,7 @@ span {
     color: black;
     padding: 5px 15px;
     margin: 5px;
-    background-color: burlywood;
+    background-color: cornsilk;
     border-radius: 25px;
     vertical-align: middle;
     transition: background-color .5s, padding .5s, margin .5s;
@@ -21,14 +21,14 @@ span:hover {
     color: black;
     padding: 5px 30px;
     margin: 15px;
-    background-color: cornsilk;
+    background-color: burlywood;
     border-radius: 20px;
 }
 
 .nav-item {
     padding: 5px 10px;
     margin: 5px;
-    background-color: burlywood;
+    background-color: cornsilk;
     border-radius: 25px;
     text-align: center;
     transition: background-color .5s, padding .5s, margin .5s;
@@ -37,7 +37,7 @@ span:hover {
 .nav-item:hover {
     padding: 5px 25px;
     margin: 5px 15px;
-    background-color: blanchedalmond;
+    background-color: burlywood;
 }
 
 .img {
@@ -107,6 +107,11 @@ span:hover {
 }
 #end {
     background-image: url("https://drive.google.com/uc?export=view&id=1w9vjoH4iGsV1GkPBHydivrfe3nhsuKvX");
+}
+#me {
+    background-image: url("https://drive.google.com/uc?export=view&id=1V5EjVxbh2Y7iVpMXAWDA-SaBKw3lKH7b");
+    background-attachment: fixed;
+    background-size: contain;
 }
 
 .ibox {
@@ -179,6 +184,16 @@ section {
     padding-top: 20px;
 }
 
-h4 {
+h4, h6 {
     padding-top: 20px;
+}
+
+p#skill {
+    font-size: 0.8em;
+    font-weight: bold;
+    background-color: burlywood;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 5px;
+    display: inline-block;
 }

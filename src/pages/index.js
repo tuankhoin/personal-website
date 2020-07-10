@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <Layout>
       <Header headerText="Hello stranger!" caption = "Let's get started, shall we?"
-      children={<a href="#start" className="btn btn-info" role="button">Let's go!</a>} />
+      children={<a href="#start" className="btn btn-info" role="button">Let's scroll down!</a>} />
 
       <section id = "start">
         <div className="icontainer" style={{paddingTop: 20}}>
@@ -16,7 +16,7 @@ export default function Home() {
           </div>
           
           <div className="ibox">
-            <div className = "img" id = "pj" data-aos="fade-right"><Link to="/projects/">Projects</Link></div>   
+            <div className = "img" id = "pj" data-aos="fade-right"><Link to="/projects/">Projects & Publications</Link></div>   
           </div>
         </div>
         <div className="icontainer" style={{marginTop: -7}}>

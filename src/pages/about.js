@@ -8,15 +8,88 @@ export default function About({ data }) {
   return (
     <Layout>
       <div style={{ color: `teal` }}>
-        <Header headerText="Tuan-Khoi Nguyen (Khoi)" caption = "Continued below..."/>
+        <Header headerText="Tuan-Khoi Nguyen (Khoi)" 
+        caption = {<a href="#start" className="btn btn-info" role="button">Continue</a>}/>
       </div>
+      
+      <section id = "start">
+        <div style={{maxWidth:"100%", height:"300px", display: "block"}} id="me"></div>
+
+        <h4 data-aos = 'fade-right'>Introduction</h4>
+        <p data-aos = 'fade-right'>
+          Khoi is currently in his 3rd year at The University of Melbourne, finishing his undergraduate degree in 
+          Mechatronics Systems while concurrently doing Computing subjects. He is interested in anything that
+          invovles automation: robotics, reinforcement learning, automation agents and heaps. He have experienced with, but not 
+          limited to, game-playing agents, server automation and research.
+        </p>
+        <p data-aos = 'fade-right'>
+          Besides sitting with the laptop, Khoi also enjoys taking photographs on hiking or mountain biking
+          trips, or jam some notes with his guitar. So feel free to ask him if you want to play some music
+          on the mountain peaks.
+        </p>
+
+        <h4 data-aos = 'fade-right'>Skills</h4>
+        <h6 data-aos = 'fade-right'>Khoi is technically proficient in:</h6>
+          <div data-aos = 'fade-right'>
+            <p id = "skill">LATEX</p>
+            <p id = "skill">MATLAB</p>
+            <p id = "skill">Python</p>
+            <p id = "skill">Java</p>
+            <p id = "skill">C</p>
+            <p id = "skill">HTML/CSS</p>
+            <p id = "skill">Bootstrap</p>
+            <p id = "skill">Bash/Shell</p>
+            <p id = "skill">MySQL</p>
+            <p id = "skill">Flask</p>
+            <p id = "skill">Reinforcement Learning</p>
+            <p id = "skill">Algorithms</p>
+            <p id = "skill">Data Structures</p>
+          </div>
+        <h6 data-aos = 'fade-right'>...and have working experience with (but not limited to):</h6>
+          <div data-aos = 'fade-right'>
+              <p id = "skill">Golang</p>
+              <p id = "skill">JavaScript</p>
+              <p id = "skill">React</p>
+              <p id = "skill">Gatsby</p>
+              <p id = "skill">GraphQL</p>
+              <p id = "skill">numpy</p>
+              <p id = "skill">pandas</p>
+              <p id = "skill">Machine Learning</p>
+              <p id = "skill">Anisble</p>
+              <p id = "skill">CI/CD</p>
+            </div>
+        <h6 data-aos = 'fade-right'>His soft skills also include:</h6>
+          <div data-aos = 'fade-right'>
+              <p id = "skill">Responsibility</p>
+              <p id = "skill">Research</p>
+              <p id = "skill">Idea Initiative</p>
+              <p id = "skill">Organizational Leadership</p>
+              <p id = "skill">Project Management</p>
+              <p id = "skill">Rapid Learning</p>
+              <p id = "skill">Problem Solving</p>
+              <p id = "skill">Mentoring</p>
+              <p id = "skill">Tutoring</p>
+            </div>
+      </section>
+
+      <h4>Awards</h4>
+      {data.allAboutAwardsCsv.edges.map(({ node }, index) => (
+              <div data-aos = 'fade-right' id="workframe" key = {node.id}>
+              <div id="title">
+                <h5>{node.Award}</h5>
+                <p style = {{paddingTop:10}}>{node.Awarder} | {node.Time}</p>
+              </div>
+              
+              <p>{node.Description}</p>
+            </div>
+            ))}
 
       <h4>Work Experience</h4>
       {data.allAboutWorkCsv.edges.map(({ node }, index) => (
               <div data-aos = 'fade-right' id="workframe" key = {node.id}>
                 <div id="title">
                   <h5>{node.Company}</h5>
-                  <span><a href={node.Url}>
+                  <span><a href={node.Url} target="_blank">
                   <img src="https://img.icons8.com/android/24/000000/info.png"/>
                   </a></span>
                   <p>{node.Position} | {node.Time}</p>
@@ -41,7 +114,7 @@ export default function About({ data }) {
               <div data-aos = 'fade-right' id="workframe" key = {node.id}>
               <div id="title">
                 <h5>{node.Company}</h5>
-                <span><a href={node.Url}>
+                <span><a href={node.Url} target="_blank">
                 <img src="https://img.icons8.com/android/24/000000/info.png"/>
                 </a></span>
                 <p>{node.Position} | {node.Time}</p>
@@ -69,6 +142,17 @@ export default function About({ data }) {
 
 export const query = graphql`
 query {
+  allAboutAwardsCsv {
+    edges {
+      node {
+        Award
+        Description
+        Awarder
+        Time
+        id
+      }
+    }
+  }
   allAboutOtherCsv {
     edges {
       node {
