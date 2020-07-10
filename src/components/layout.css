@@ -163,7 +163,20 @@ section {
 
 #workframe {
     padding: 10px 15px;
-    border: 3px solid green;
+    margin: 10px;
+    box-shadow: 2px 2px 5px;
+    border-radius: 20px;
+    transition: box-shadow .5s ease, margin .5s ease;
+}
+
+#workframe:hover {
+    box-shadow: 2px 2px 15px;
+    margin: 15px 10px;
+}
+
+#title {
+    border-radius: 20px;
+    padding: 10px
 }
 
 #title > p {
@@ -188,7 +201,7 @@ h4, h6 {
     padding-top: 20px;
 }
 
-p#skill {
+p#skill, p#techstack {
     font-size: 0.8em;
     font-weight: bold;
     background-color: burlywood;
@@ -196,4 +209,61 @@ p#skill {
     padding: 5px 10px;
     margin: 5px;
     display: inline-block;
+}
+
+/*Size*/
+::-webkit-scrollbar {
+    width: 5px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #888;
+border-radius: 2px; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}
+
+div#showcase {
+    box-shadow: 2px 2px 5px;
+    border-radius: 20px;
+    vertical-align: top;
+    width: 30%;
+    height: 60vh;
+    margin: 2% 1%;
+    padding: 2%;
+    height: auto;
+    display: inline-flex;
+    overflow: hidden;
+    transition: box-shadow .5s ease, width .5s ease;
+}
+
+div#showcase:hover {
+    overflow-y: scroll;
+    width: 31%;
+    box-shadow: 2px 2px 15px;
+    background-image: linear-gradient(-90deg, lightblue, lightcyan);
+}
+
+div#showcase > p {
+    font-size: 0.75em;
+}
+
+div#showcase > a {
+    display: block;
+    width: 100%;
+    height: 70vh;
+    text-decoration: none;
+    color: black;
+}
+
+#contact > a {
+    margin: 10px;
+    background-color: snow;
+    border-radius: 15px;
+    padding: 10px;
+    color: black;
+    display: inline-block;
+    font-size: 1.1em;
 }
