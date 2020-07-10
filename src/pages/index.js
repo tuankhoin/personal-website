@@ -29,12 +29,13 @@ export default function Home() {
           </div>
         </div>
         <div className="icontainer" style={{marginTop: -7}}>
-          <div className="ibox">
-          <div className = "img" id = "ct" data-aos="fade-right"><Link to="/contact/" id="bottom">Contact</Link></div>   
-          </div>
           
           <div className="ibox">
             <div className = "img" id = "end" data-aos="fade-right"><Link to="/" id="bottom">That's all!</Link></div>            
+          </div>
+
+          <div className="ibox">
+            <div className = "img" id = "ct" data-aos="fade-right"><Link to="/contact/" id="bottom">Contact</Link></div>   
           </div>
         </div>
       </section>
