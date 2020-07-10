@@ -15,6 +15,7 @@ module.exports = {
     },
     `gatsby-transformer-remark`,
     `gatsby-transformer-csv`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {
