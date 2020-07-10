@@ -1,7 +1,7 @@
 import React from "react"
 import Header from "../components/header"
 import Layout from "../components/layout"
-import { Link } from "gatsby"
+import { Helmet } from "react-helmet"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 import { faGithub, faLinkedin, faInstagram, faMedium } from '@fortawesome/free-brands-svg-icons'
@@ -9,6 +9,7 @@ import { faGithub, faLinkedin, faInstagram, faMedium } from '@fortawesome/free-b
 export default function Contact() {
   return (
     <Layout>
+      <Helmet><title>Contact</title></Helmet>
       <Header headerText="Contact" caption = "Let's keep in touch!"
       children = {
         <div data-aos='fade-right' id="contact">

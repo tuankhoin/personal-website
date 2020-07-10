@@ -2,11 +2,13 @@ import React from "react"
 import Header from "../components/header"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
+import { Helmet } from "react-helmet"
 
 export default function About({ data }) {
   console.log(data)
   return (
     <Layout>
+      <Helmet><title>About Khoi</title></Helmet>
       <div style={{ color: `teal` }}>
         <Header headerText="Tuan-Khoi Nguyen (Khoi)" 
         caption = {<a href="#start" className="btn btn-info" role="button">Continue</a>}/>

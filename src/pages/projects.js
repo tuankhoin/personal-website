@@ -1,11 +1,12 @@
 import React from "react"
 import Header from "../components/header"
 import Layout from "../components/layout"
-import { Link } from "gatsby"
+import { Helmet } from "react-helmet"
 
 export default function Projects({ data }) {
   return (
     <Layout>
+      <Helmet><title>Work Showcase</title></Helmet>
       <Header headerText="Projects, Publications & Contributions"
       caption = {<a href="#start" className="btn btn-info" role="button">Continue</a>} />
 
