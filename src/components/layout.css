@@ -51,7 +51,7 @@ span:hover {
 .img > a {
     display: inline-block;
     padding-top: 20%;
-    height: 193px;
+    height: 200px;
     width: inherit;
     background-color: rgba(9, 64, 120, 0.537);
     opacity: 0.0;
@@ -59,9 +59,11 @@ span:hover {
     transition: opacity .5s ease;
 }
 
+/*
 .img > a#bottom {
     height: 200px;
 }
+*/
 
 .img:hover > a {
     opacity: 1;

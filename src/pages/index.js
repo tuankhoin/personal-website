@@ -21,7 +21,7 @@ export default function Home() {
             <div className = "img" id = "pj"><Link to="/projects/">Projects & Publications</Link></div>   
           </div>
         </div>
-        <div className="icontainer" style={{marginTop: -7}}>
+        <div className="icontainer" style={{marginTop: 0}}>
           <div className="ibox">
           <div className = "img" id = "pt"><Link to="/photography/">Photo Gallery</Link></div>   
           </div>
@@ -30,7 +30,7 @@ export default function Home() {
             <div className = "img" id = "ms"><Link to="/music/">Music Gallery</Link></div>            
           </div>
         </div>
-        <div className="icontainer" style={{marginTop: -7}}>
+        <div className="icontainer" style={{marginTop: -0}}>
           
           <div className="ibox">
             <div className = "img" id = "end"><Link to="/" id="bottom">That's all!</Link></div>            
