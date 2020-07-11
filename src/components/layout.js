@@ -1,5 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
+import favicon from '../images/favicon.ico'
+import Helmet from 'react-helmet'
 import "./layout.css"
 
 export default function Layout({ children }) {
@@ -8,6 +10,9 @@ export default function Layout({ children }) {
       <div id = "load">
         <div id="loader"> </div>
       </div>
+      <Helmet>
+        <link rel="icon" href={favicon} />
+      </Helmet>
       
       <nav className="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
         <div className="container" style={{borderRadius:"30px"}}>
