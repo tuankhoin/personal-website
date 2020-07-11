@@ -10,7 +10,7 @@ export default function Music() {
     <Layout>   
       <Helmet><title>Music Gallery</title></Helmet> 
       <Container>
-      <Header headerText="Music gallery!" caption = "Let's get started, shall we?" />
+      <Header headerText="Music gallery!" caption = {<a href="#start" className="btn btn-info" role="button">Continue</a>}/>
       </Container>
   </Layout>
   )

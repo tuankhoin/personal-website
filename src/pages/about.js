@@ -42,6 +42,7 @@ export default function About({ data }) {
             <p id = "skill">HTML/CSS</p>
             <p id = "skill">Bootstrap</p>
             <p id = "skill">Bash/Shell</p>
+            <p id = "skill">Git</p>
             <p id = "skill">MySQL</p>
             <p id = "skill">Flask</p>
             <p id = "skill">Reinforcement Learning</p>
