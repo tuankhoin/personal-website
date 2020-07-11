@@ -7,7 +7,7 @@ import { Helmet } from "react-helmet"
 export default function Home() {
   return (
     <Layout>
-      <Helmet><title>Welcome!</title></Helmet>
+      <Helmet><link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" /><title>Welcome!</title></Helmet>
       <Header headerText="Hello stranger!" caption = "Let's get started, shall we?"
       children={<a href="#start" className="btn btn-info" role="button">Let's scroll down!</a>} />
 
