@@ -244,13 +244,16 @@ div#showcase {
     border-radius: 20px;
     vertical-align: top;
     width: 30%;
-    height: 60vh;
+    /*height: 60vh;*/
     margin: 2% 1%;
     padding: 2%;
     height: auto;
     display: inline-flex;
     overflow: hidden;
     transition: box-shadow .5s ease, width .5s ease;
+}
+div#showcase::before {
+    padding-top: 75%;
 }
 
 div#showcase:hover {
@@ -267,7 +270,7 @@ div#showcase > p {
 div#showcase > a {
     display: block;
     width: 100%;
-    height: 70vh;
+    /*height: 70vh;*/
     text-decoration: none;
     color: black;
 }
