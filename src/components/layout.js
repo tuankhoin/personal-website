@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import favicon from '../images/favicon.ico'
 import Helmet from 'react-helmet'
+import AOS from 'aos';
 import "./layout.css"
 
 export default function Layout({ children }) {
@@ -44,4 +45,5 @@ function showPage() {
   document.getElementById("loader").style.display = "none";
   document.getElementById("load").style.display = "none";
   // document.getElementById("myDiv").style.display = "block";
+  AOS.init();
 }

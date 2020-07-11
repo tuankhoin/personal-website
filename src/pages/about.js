@@ -44,6 +44,7 @@ export default function About({ data }) {
             <p id = "skill">MySQL</p>
             <p id = "skill">Flask</p>
             <p id = "skill">Reinforcement Learning</p>
+            <p id = "skill">Artificial Intelligence</p>
             <p id = "skill">Algorithms</p>
             <p id = "skill">Data Structures</p>
           </div>

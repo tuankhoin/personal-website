@@ -123,6 +123,11 @@ span:hover {
 .icontainer {
     margin: 0 0;
     text-align: center;
+    transition: box-shadow .5s ease;
+}
+
+.icontainer:hover {
+    box-shadow: 2px 2px 15px;
 }
 
 #start {

@@ -12,7 +12,7 @@ export default function Home() {
       children={<a href="#start" className="btn btn-info" role="button">Let's scroll down!</a>} />
 
       <section id = "start">
-        <div className="icontainer" style={{paddingTop: 20}}>
+        <div className="icontainer" style={{paddingTop: 0}}>
           <div className="ibox">
             <div className = "img" id = "ab" data-aos="fade-right"><Link to="/about/">Who am I?</Link></div>   
           </div>
