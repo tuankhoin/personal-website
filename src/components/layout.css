@@ -244,10 +244,12 @@ div#showcase {
     border-radius: 20px;
     vertical-align: top;
     width: 30%;
+    min-width: 300px;
+    min-height: 500px;
+    max-height: 500px;
     /*height: 60vh;*/
     margin: 2% 1%;
-    padding: 2%;
-    height: auto;
+    padding: 4%;
     display: inline-flex;
     overflow: hidden;
     transition: box-shadow .5s ease, width .5s ease;
@@ -273,6 +275,7 @@ div#showcase > a {
     /*height: 70vh;*/
     text-decoration: none;
     color: black;
+    font-size: 0.85em;
 }
 
 #contact > a {
