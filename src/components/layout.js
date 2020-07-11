@@ -4,7 +4,11 @@ import "./layout.css"
 
 export default function Layout({ children }) {
   return (
-    <div className="bar">
+    <div className="bar" onLoad={myFunction()}>
+      <div id = "load">
+        <div id="loader"> </div>
+      </div>
+      
       <nav className="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
         <div className="container" style={{borderRadius:"30px"}}>
             <span className="navbar-brand js-scroll-trigger"><Link to="/">Khoi's Webpage</Link></span>
@@ -23,4 +27,16 @@ export default function Layout({ children }) {
       {children}
     </div>
   )
+}
+
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("load").style.display = "none";
+  // document.getElementById("myDiv").style.display = "block";
 }
