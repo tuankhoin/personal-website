@@ -14,30 +14,30 @@ export default function Home() {
       <section id = "start">
         <div className="icontainer" style={{paddingTop: 0}}>
           <div className="ibox">
-            <div className = "img" id = "ab" data-aos="fade-right"><Link to="/about/">Who am I?</Link></div>   
+            <div className = "img" id = "ab"><Link to="/about/">Who am I?</Link></div>   
           </div>
           
           <div className="ibox">
-            <div className = "img" id = "pj" data-aos="fade-right"><Link to="/projects/">Projects & Publications</Link></div>   
+            <div className = "img" id = "pj"><Link to="/projects/">Projects & Publications</Link></div>   
           </div>
         </div>
         <div className="icontainer" style={{marginTop: -7}}>
           <div className="ibox">
-          <div className = "img" id = "pt" data-aos="fade-right"><Link to="/photography/">Photo Gallery</Link></div>   
+          <div className = "img" id = "pt"><Link to="/photography/">Photo Gallery</Link></div>   
           </div>
           
           <div className="ibox">
-            <div className = "img" id = "ms" data-aos="fade-right"><Link to="/music/">Music Gallery</Link></div>            
+            <div className = "img" id = "ms"><Link to="/music/">Music Gallery</Link></div>            
           </div>
         </div>
         <div className="icontainer" style={{marginTop: -7}}>
           
           <div className="ibox">
-            <div className = "img" id = "end" data-aos="fade-right"><Link to="/" id="bottom">That's all!</Link></div>            
+            <div className = "img" id = "end"><Link to="/" id="bottom">That's all!</Link></div>            
           </div>
 
           <div className="ibox">
-            <div className = "img" id = "ct" data-aos="fade-right"><Link to="/contact/" id="bottom">Contact</Link></div>   
+            <div className = "img" id = "ct"><Link to="/contact/" id="bottom">Contact</Link></div>   
           </div>
         </div>
       </section>
