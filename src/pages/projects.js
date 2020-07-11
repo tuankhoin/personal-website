@@ -1,14 +1,15 @@
 import React from "react"
 import Header from "../components/header"
 import Layout from "../components/layout"
+import Container from "../components/container"
 import { Helmet } from "react-helmet"
 
 export default function Projects({ data }) {
   return (
     <Layout>
       <Helmet><title>Work Showcase</title></Helmet>
-      <Header headerText="Projects, Publications & Contributions"
-      caption = {<a href="#start" className="btn btn-info" role="button">Continue</a>} />
+      <Container><Header headerText="Projects, Publications & Contributions"
+      caption = {<a href="#start" className="btn btn-info" role="button">Continue</a>} /></Container>
 
       
       <section id = "start">

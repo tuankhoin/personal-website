@@ -119,18 +119,23 @@ span:hover {
 .ibox {
     flex-wrap: wrap;
     display: inline-block;
-    transition: opacity .5s ease;
+    transition: opacity .5s ease, box-shadow .5s linear;
+}
+.ibox:hover {
+    box-shadow: 2px 2px 15px;
 }
 
 .icontainer {
     margin: 0 0;
     text-align: center;
-    transition: box-shadow .5s ease;
+    /*transition: box-shadow .5s ease;*/
 }
 
+/*
 .icontainer:hover {
     box-shadow: 2px 2px 15px;
 }
+*/
 
 #start {
     padding: 20px;

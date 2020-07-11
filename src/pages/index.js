@@ -3,14 +3,15 @@ import Header from "../components/header"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
 import { Helmet } from "react-helmet"
+import Container from "../components/container"
 
 export default function Home() {
   return (
     <Layout>
       <Helmet><link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" /><title>Welcome!</title></Helmet>
-      <Header headerText="Hello stranger!" caption = "Let's get started, shall we?"
+      <Container><Header headerText="Hello stranger!" caption = "Let's get started, shall we?"
       children={<a href="#start" className="btn btn-info" role="button">Let's scroll down!</a>} />
-
+      </Container>
       <section id = "start">
         <div className="icontainer" style={{paddingTop: 0}}>
           <div className="ibox">

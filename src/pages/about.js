@@ -3,16 +3,17 @@ import Header from "../components/header"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
 import { Helmet } from "react-helmet"
+import Container from "../components/container"
 
 export default function About({ data }) {
   console.log(data)
   return (
     <Layout>
       <Helmet><title>About Khoi</title></Helmet>
-      <div style={{ color: `teal` }}>
+      <Container style={{ color: `teal` }}>
         <Header headerText="Tuan-Khoi Nguyen (Khoi)" 
         caption = {<a href="#start" className="btn btn-info" role="button">Continue</a>}/>
-      </div>
+      </Container>
       
       <section id = "start">
         <div style={{maxWidth:"100%", height:"300px", display: "block"}} id="me"></div>
