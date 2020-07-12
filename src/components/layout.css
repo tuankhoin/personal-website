@@ -51,7 +51,7 @@ span > a:hover {
 
 .img {
     height: 200px;
-    width: 400px;
+    width: 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -126,6 +126,7 @@ span > a:hover {
 }
 
 .ibox {
+    width:50%;
     flex-wrap: wrap;
     display: inline-block;
     /*transition: opacity .5s ease, box-shadow .5s linear;*/
@@ -145,8 +146,8 @@ span > a:hover {
 /*
 .icontainer:hover {
     box-shadow: 2px 2px 15px;
-}
-*/
+}*/
+
 
 #start {
     padding: 20px;

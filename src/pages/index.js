@@ -12,7 +12,7 @@ export default function Home() {
       <Container><Header headerText="Hello stranger!" caption = "Let's get started, shall we?"
       children={<a href="#start" className="btn btn-info" role="button">Let's scroll down!</a>} />
       </Container>
-      <section id = "start" style={{padding: "2.5%", width: "60%", marginLeft:"20%"}}>
+      <section id = "start" style={{padding: "0%", width: "100%", marginLeft:"0%",borderRadius:0}}>
         <p style={{fontSize:'1.2em', color:'white'}}>Select one: </p>
         <div className="icontainer" style={{paddingTop: 0}}>
           <div className="ibox">
