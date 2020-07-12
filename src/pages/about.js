@@ -15,7 +15,7 @@ export default function About({ data }) {
         caption = {<a href="#start" className="btn btn-info" role="button">Continue</a>}/>
       </Container>
       
-      <section id = "start" style={{padding: "2.5%", width: "80%", marginLeft:"10%"}}>
+      <section id = "start" style={{padding: "2.5%", width: "88%", marginLeft:"6%"}}>
         <div style={{maxWidth:"100%", height:"300px", display: "block"}} id="me"></div>
 
         <h4 data-aos = 'fade-right'>Introduction</h4>

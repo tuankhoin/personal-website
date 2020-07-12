@@ -21,7 +21,7 @@ export default function Music() {
           </div>
 
           <div className='vid'>
-            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ftuankhoi.nguyen.16%2Fvideos%2F1804036812962572%2F&show_text=true&width=734&height=522&appId" width="367" height="261" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
+            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ftuankhoi.nguyen.16%2Fvideos%2F1804036812962572%2F&show_text=true&width=734&height=522&appId" scrolling="no" allowtransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
           </div>
           
           <p>Not much content so far. Hope that it can be expanded in the future :) .</p>
