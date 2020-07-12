@@ -63,8 +63,9 @@ export default function About({ data }) {
               <p id = "skill">Anisble</p>
               <p id = "skill">DevOps</p>
               <p id = "skill">CI/CD</p>
+              <p id = "skill">Docker</p>
             </div>
-        <h6 data-aos = 'fade-right'>His soft skills also include:</h6>
+        <h6 data-aos = 'fade-right'>His working skills include:</h6>
           <div data-aos = 'fade-right'>
               <p id = "skill">Responsibility</p>
               <p id = "skill">Research</p>
