@@ -8,7 +8,7 @@ export default function Projects({ data }) {
   return (
     <Layout>
       <Helmet><title>Work Showcase</title></Helmet>
-      <Container><Header headerText="Projects, Publications & Contributions"
+      <Container><Header headerText="Projects & Publications"
       caption = {<a href="#start" className="btn btn-info" role="button">Continue</a>} /></Container>
 
       

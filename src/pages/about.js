@@ -15,7 +15,7 @@ export default function About({ data }) {
         caption = {<a href="#start" className="btn btn-info" role="button">Continue</a>}/>
       </Container>
       
-      <section id = "start">
+      <section id = "start" style={{padding: "2.5%", width: "80%", marginLeft:"10%"}}>
         <div style={{maxWidth:"100%", height:"300px", display: "block"}} id="me"></div>
 
         <h4 data-aos = 'fade-right'>Introduction</h4>
@@ -76,6 +76,7 @@ export default function About({ data }) {
               <p id = "skill">Tutoring</p>
             </div>
       
+      </section>
 
       <h4>Awards</h4>
       {data.allAboutAwardsCsv.edges.map(({ node }, index) => (
@@ -140,7 +141,7 @@ export default function About({ data }) {
               <p data-aos = 'fade-right'>{node.Description}</p>
             </div>
             ))}
-      </section>
+      
     </Layout>
   )
 }

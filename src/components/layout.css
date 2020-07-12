@@ -12,7 +12,7 @@ span {
     color: black;
     padding: 5px 15px;
     margin: 5px;
-    background-color: cornsilk;
+    background-color: none;
     border-radius: 25px;
     vertical-align: middle;
     transition: background-color .5s, padding .5s, margin .5s;
@@ -21,14 +21,14 @@ span:hover {
     color: black;
     padding: 5px 30px;
     margin: 15px;
-    background-color: burlywood;
+    background-color: rgb(223, 163, 84);
     border-radius: 20px;
 }
 
 .nav-item {
     padding: 5px 10px;
     margin: 5px;
-    background-color: cornsilk;
+    background-color: none;
     border-radius: 25px;
     text-align: center;
     transition: background-color .5s, padding .5s, margin .5s;
@@ -37,7 +37,16 @@ span:hover {
 .nav-item:hover {
     padding: 5px 25px;
     margin: 5px 15px;
-    background-color: burlywood;
+    background-color: rgb(223, 163, 84);
+}
+
+.nav-item > a, span > a {
+    color: rgb(241, 241, 241);
+}
+
+span > a:hover {
+    color: rgb(241, 241, 241);
+    text-decoration: solid;
 }
 
 .img {
@@ -218,7 +227,7 @@ h4, h6 {
 p#skill, p#techstack {
     font-size: 0.8em;
     font-weight: bold;
-    background-color: burlywood;
+    background-color: rgba(251, 200, 134, 0.605);
     border-radius: 20px;
     padding: 5px 10px;
     margin: 5px;
@@ -262,7 +271,7 @@ div#showcase:hover {
     overflow-y: scroll;
     width: 31%;
     box-shadow: 2px 2px 15px;
-    background-image: linear-gradient(-90deg, lightblue, lightcyan);
+    background-image: linear-gradient(360deg, lightcyan, rgb(255, 255, 255));
 }
 
 div#showcase > p {
