@@ -13,7 +13,7 @@ export default function Music() {
       <Header headerText="Music gallery!" caption = {<a href="#start" className="btn btn-info" role="button">Continue</a>}/>
       </Container>
 
-      <section id = "start">
+      <section id = "start" style={{marginLeft: "10%", width:"80%"}}>
         <div style={{textAlign : "center"}}>
 
           <div className='vid'>

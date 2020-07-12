@@ -75,7 +75,7 @@ export default function About({ data }) {
               <p id = "skill">Mentoring</p>
               <p id = "skill">Tutoring</p>
             </div>
-      </section>
+      
 
       <h4>Awards</h4>
       {data.allAboutAwardsCsv.edges.map(({ node }, index) => (
@@ -140,7 +140,7 @@ export default function About({ data }) {
               <p data-aos = 'fade-right'>{node.Description}</p>
             </div>
             ))}
-
+      </section>
     </Layout>
   )
 }
