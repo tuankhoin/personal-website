@@ -14,12 +14,12 @@ export default function Photography({ data }) {
       caption = {<a href="#start" className="btn btn-info" role="button">Let's go!</a>} /></Container>
 
 
-        <p id="start" style={{padding:"20px 0px"}}>Welcome to my journey. Feel free to wander.</p>
-        <p>Tip: The lower the width, the more you see.</p>
+        <p id="start" style={{padding:"20px 0px"}}>Welcome to my journey. I hope you enjoy wandering around here.</p>
+        <p> </p>
 
       {data.allPhotosCsv.edges.map(({ node }) => (
-          <div className="row">
-            <div className="col-lg img" key = {node.id}
+          <div className="row"  key = {node.id}>
+            <div className="col-lg img"
             style={{backgroundImage:"url(https://drive.google.com/uc?export=view&id="+node.id+")",
                     backgroundPositionY: node.pad}}>
               <Link to={node.path} target="_blank" className="not-active">
