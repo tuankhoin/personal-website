@@ -60,7 +60,7 @@ span > a:hover {
 .img > a {
     display: inline-block;
     padding-top: 75px;
-    height: 200px;
+    height: inherit;
     width: inherit;
     background-color: rgba(9, 64, 120, 0.537);
     opacity: 0.0;
