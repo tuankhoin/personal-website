@@ -1,7 +1,8 @@
 div {
     background-image: none;
     /*linear-gradient(-90deg, rgba(224, 255, 255, 0.496), rgba(173, 216, 230, 0));*/
-    color: black;
+    color: white;
+    background-color: rgb(6, 11, 35);
   }
 
 
@@ -10,13 +11,18 @@ div.container {
 }
 
 #load {
-  background-color: white;
+  background-color: rgb(6, 11, 35);
 }
 
 html {
-  background-color: none;
+  background-color: rgb(6, 11, 35);
+  color: white;
   background-size: contain;
   scroll-behavior: smooth;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  color: white;
 }
 
 a {

@@ -59,7 +59,7 @@ span > a:hover {
 
 .img > a {
     display: inline-block;
-    padding-top: 20%;
+    padding-top: 75px;
     height: 200px;
     width: inherit;
     background-color: rgba(9, 64, 120, 0.537);
@@ -78,16 +78,7 @@ span > a:hover {
     opacity: 1;
 }
 
-.img > Link {
-    display: inline-block;
-    padding-top: 20%;
-    height: 193px;
-    width: inherit;
-    background-color: rgba(9, 64, 120, 0.537);
-    opacity: 0.0;
-    color: whitesmoke;
-    transition: opacity .5s ease;
-}
+
 
 .img > Link#bottom {
     height: 200px;
@@ -105,13 +96,13 @@ span > a:hover {
     background-image: url("https://drive.google.com/uc?export=view&id=150zpHlSr4BorMZPilOrgIT-GjTJRn3T0");
 }
 #pj {
-    background-image: url("https://drive.google.com/uc?export=view&id=1RWZYc9dTAWaWPcjOTmMn3XY-Q_Zt62tN");
+    background-image: url("https://drive.google.com/uc?export=view&id=1v4-qUzgaiiHyDF3ZfWOilzmpBUxjQBCX");
 }
 #pt {
     background-image: url("https://drive.google.com/uc?export=view&id=1pr0qmE_LhaewaTk1kU1HbSkBK3gFciO7");
 }
 #ms {
-    background-image: url("https://drive.google.com/uc?export=view&id=1nLye5MyK-3aLL2HnE-XOYlHPSidpMxl0");
+    background-image: url("https://drive.google.com/uc?export=view&id=1PdjysltiUXMSY5P-qCMyBtnfe-rtNZIi");
 }
 #ct {
     background-image: url("https://drive.google.com/uc?export=view&id=17p381IXD7MyVYAKrhNKXRXJCncIEFpMG");
@@ -137,9 +128,11 @@ span > a:hover {
 }
 */
 
-.icontainer {
-    margin: 0 0;
+.icontainer, .col-lg {
+    margin: 0 0px;
+    padding: 0;
     text-align: center;
+    background-image: linear-gradient(-90deg, lightblue, lightcyan);
     /*transition: box-shadow .5s ease;*/
 }
 
@@ -254,7 +247,7 @@ div#showcase {
     border-radius: 20px;
     vertical-align: top;
     width: 30%;
-    min-width: 300px;
+    min-width: 270px;
     min-height: 500px;
     max-height: 500px;
     /*height: 60vh;*/
@@ -272,7 +265,7 @@ div#showcase:hover {
     overflow-y: scroll;
     width: 31%;
     box-shadow: 2px 2px 15px;
-    background-image: linear-gradient(360deg, lightcyan, rgb(255, 255, 255));
+    background-image: linear-gradient(360deg, rgb(6, 11, 35), rgb(82, 82, 115));
 }
 
 div#showcase > p {
