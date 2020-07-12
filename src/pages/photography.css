@@ -1,0 +1,13 @@
+.row > .col-lg {
+    height: 300px;
+    background-position: 50% 65%;
+}
+
+.row > .col-lg > a {
+    padding-top: 125px;
+}
+
+.not-active {
+    pointer-events: none;
+    cursor: default;
+  }
