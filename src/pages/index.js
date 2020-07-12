@@ -8,7 +8,7 @@ import Container from "../components/container"
 export default function Home() {
   return (
     <Layout>
-      <Helmet><link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" /><title>Welcome!</title></Helmet>
+      <Helmet><link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" /><title>Hello! I'm Khoi</title></Helmet>
       <Container><Header headerText="Hello stranger!" caption = "Let's get started, shall we?"
       children={<a href="#start" className="btn btn-info" role="button">Let's scroll down!</a>} />
       </Container>
