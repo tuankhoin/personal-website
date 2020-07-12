@@ -132,8 +132,13 @@ span > a:hover {
     margin: 0 0px;
     padding: 0;
     text-align: center;
-    background-image: linear-gradient(-90deg, lightblue, lightcyan);
-    /*transition: box-shadow .5s ease;*/
+    background-color: rgb(6, 11, 35);
+    /*background-image: linear-gradient(-90deg, lightblue, lightcyan);
+    transition: box-shadow .5s ease;*/
+}
+
+#icontainer {
+    height: 200px;
 }
 
 /*
