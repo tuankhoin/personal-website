@@ -13,6 +13,7 @@ export default function Home() {
       children={<a href="#start" className="btn btn-info" role="button">Let's scroll down!</a>} />
       </Container>
       <section id = "start" style={{padding: "2.5%", width: "60%", marginLeft:"20%"}}>
+        <p style={{fontSize:'1.2em', color:'white'}}>Select one: </p>
         <div className="icontainer" style={{paddingTop: 0}}>
           <div className="ibox">
             <div className = "img" id = "ab"><Link to="/about/">Who am I?</Link></div>   

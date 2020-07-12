@@ -11,7 +11,7 @@ export default function Header(props) {
                   marginTop: '15rem',
                   marginBottom: '15rem',
                   display:"none" }}> 
-      <h1 style={{ border: '3px solid green' }}>{props.headerText}</h1>
+      <h1 style={{ border: '3px solid green', padding:'10px' }}>{props.headerText}</h1>
       <p>{props.caption}</p>
       {props.children}
     </div>

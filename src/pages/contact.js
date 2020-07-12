@@ -37,7 +37,7 @@ export default function Contact() {
           </a>
 
           <a href="http://www.mazevietnam.com/khoinguyen/" target="_blank">
-            <FontAwesomeIcon icon={ faMedium }/> Maze Vietnam
+            <FontAwesomeIcon icon={ faMedium }/> MazeVietnam
           </a>
         </div>        
       } />
