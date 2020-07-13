@@ -97,7 +97,8 @@ export default function About({ data }) {
               <div id="workframe" key = {node.id}>
                 <div data-aos = 'fade-right' id="title">
                   <h5>{node.Company}</h5>
-                  <span><a href={node.Url} target="_blank">
+                  <span><a href={node.Url} target="_blank" 
+                  style={{backgroundColor:"burlywood", borderRadius:"50%", padding:"1.5px 2px 0px 1px"}}>
                   <img src="https://img.icons8.com/android/24/000000/info.png"/>
                   </a></span>
                   <p>{node.Position} | {node.Time}</p>
@@ -122,7 +123,7 @@ export default function About({ data }) {
               <div id="workframe" key = {node.id}>
               <div data-aos = 'fade-right' id="title">
                 <h5>{node.Company}</h5>
-                <span><a href={node.Url} target="_blank">
+                <span><a href={node.Url} target="_blank" style={{backgroundColor:"burlywood", borderRadius:"50%", padding:"1.5px 1.5px 0px 1.5px"}}>
                 <img src="https://img.icons8.com/android/24/000000/info.png"/>
                 </a></span>
                 <p>{node.Position} | {node.Time}</p>
