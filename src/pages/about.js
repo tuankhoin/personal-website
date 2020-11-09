@@ -35,6 +35,7 @@ export default function About({ data }) {
         <h6 data-aos = 'fade-right'>Khoi is technically proficient in:</h6>
           <div data-aos = 'fade-right'>
             <p id = "skill">LATEX</p>
+            <p id = "skill">Arduino</p>
             <p id = "skill">MATLAB</p>
             <p id = "skill">Python</p>
             <p id = "skill">Java</p>
@@ -60,6 +61,7 @@ export default function About({ data }) {
               <p id = "skill">numpy</p>
               <p id = "skill">pandas</p>
               <p id = "skill">Machine Learning</p>
+              <p id = "skill">SolidWorks</p>
               <p id = "skill">Anisble</p>
               <p id = "skill">DevOps</p>
               <p id = "skill">CI/CD</p>
