@@ -32,7 +32,9 @@ export default function About({ data }) {
         </p>
 
         <h4 data-aos = 'fade-right'>Skills</h4>
-        <h6 data-aos = 'fade-right'>Khoi is technically proficient in:</h6>
+        <h6 data-aos = 'fade-right'>Other than the major skills in robotics engineering and AI, Khoi
+        is also experienced in a wide range of fields such as Front-End Developing or Computer Graphics.
+        He is technically proficient in:</h6>
           <div data-aos = 'fade-right'>
             <p id = "skill">LATEX</p>
             <p id = "skill">Arduino</p>
@@ -55,6 +57,8 @@ export default function About({ data }) {
             <p id = "skill">Data Structures</p>
             <p id = "skill">C#/Unity</p>
             <p id = "skill">Shader/HLSL</p>
+            <p id = "skill">Adobe Photoshop</p>
+            <p id = "skill">Adobe Lightroom</p>
           </div>
         <h6 data-aos = 'fade-right'>...and have working experience with (but not limited to):</h6>
           <div data-aos = 'fade-right'>

@@ -1,5 +1,6 @@
 ﻿Title,Stack,Contributor,T,Description,Url
-Protfolio Website,"HTML/CSS,Bootstrap,JavaScript,React,Gatsby,GraphQL",None,Jul-20,"This website itself, used as a protfolio extension to personal CV.",/
+Toilet Pandemia,"C#,Unity,ShaderLab,HLSL,Photoshop","Huy Luu, Long Nguyen, Angus Hudson",Nov-20,"An FPS survival game in the COVID era, starting you as the manager",https://github.com/tuankhoin/toilet-pandemia
+Portfolio Website,"HTML/CSS,Bootstrap,JavaScript,React,Gatsby,GraphQL",None,Jul-20,"This website itself, used as a protfolio extension to personal CV.",/
 Expendibots by Boomers,"Python,numpy",Nicholas Wong,May-20,"Major project of Artificial Intelligence (COMP30024), which purpose is to strategically create an AI agent that plays the custom board game Expendibots.",https://github.com/tuankhoin/AI-Project-B
 Prediction of COVID-19 in Vietnam,"Python,numpy,pandas,Jupyter Notebook,Java","Andrew Ngo, Nam Hoang",Apr-20,"An analysis and prediction of the COVID-19 statistics in Vietnam, using a variety of Machine Learning and mathematical methods. Served as a model for the COVID-19 prevention operation by Vietnam Ministry of Health.",https://github.com/hoanganhngo610/COVID19_VN_MOH_MLmodels
 The Live Status of Novel Coronavirus in Australia,"HTML/CSS,Bootstrap,JavaScript,React",See GitHub source.,Apr-20,"Real time statistics website of the COVID-19 situation in Australia, founded by students of Monash University.",https://covid-19-au.com/
