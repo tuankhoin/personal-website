@@ -40,6 +40,9 @@ export default function About({ data }) {
             <p id = "skill">Python</p>
             <p id = "skill">Java</p>
             <p id = "skill">C</p>
+            <p id = "skill">SolidWorks CAD</p>
+            <p id = "skill">Haskell</p>
+            <p id = "skill">Prolog</p>
             <p id = "skill">HTML/CSS</p>
             <p id = "skill">Bootstrap</p>
             <p id = "skill">Bash/Shell</p>
@@ -50,6 +53,8 @@ export default function About({ data }) {
             <p id = "skill">Artificial Intelligence</p>
             <p id = "skill">Algorithms</p>
             <p id = "skill">Data Structures</p>
+            <p id = "skill">C#/Unity</p>
+            <p id = "skill">Shader/HLSL</p>
           </div>
         <h6 data-aos = 'fade-right'>...and have working experience with (but not limited to):</h6>
           <div data-aos = 'fade-right'>
@@ -61,7 +66,7 @@ export default function About({ data }) {
               <p id = "skill">numpy</p>
               <p id = "skill">pandas</p>
               <p id = "skill">Machine Learning</p>
-              <p id = "skill">SolidWorks</p>
+              <p id = "skill">Inventor CAD</p>
               <p id = "skill">Anisble</p>
               <p id = "skill">DevOps</p>
               <p id = "skill">CI/CD</p>
