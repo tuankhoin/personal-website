@@ -55,7 +55,8 @@ export default function About({ data }) {
             <p id = "skill">Artificial Intelligence</p>
             <p id = "skill">Algorithms</p>
             <p id = "skill">Data Structures</p>
-            <p id = "skill">C#/Unity</p>
+            <p id = "skill">C#</p>
+            <p id = "skill">Unity</p>
             <p id = "skill">Shader/HLSL</p>
             <p id = "skill">Adobe Photoshop</p>
             <p id = "skill">Adobe Lightroom</p>
