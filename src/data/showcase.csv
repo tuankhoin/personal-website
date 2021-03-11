@@ -1,4 +1,5 @@
 ﻿Title,Stack,Contributor,T,Description,Url
+Gravity Current Simulation,"numpy,pandas,xarray,pymech,Blender,nek5000,Paraview",None,Jan-21,"Working with current data to retrieve information, part of a research project by Professor Andrew Ooi.",https://github.com/tuankhoin/Gravity-Current-Data-Simulation
 Prolog Problem Solving,Prolog,None,Dec-20,Using logic programming to solve the classic problems or card games,https://github.com/tuankhoin/Prolog-Problem-Solving
 Toilet Pandemia,"C#,Unity,ShaderLab,HLSL,Photoshop","Huy Luu, Long Nguyen, Angus Hudson",Nov-20,"An FPS survival game in the COVID era, starting you as the manager",https://github.com/tuankhoin/toilet-pandemia
 Portfolio Website,"HTML/CSS,Bootstrap,JavaScript,React,Gatsby,GraphQL",None,Jul-20,"This website itself, used as a protfolio extension to personal CV.",/
