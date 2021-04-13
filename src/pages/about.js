@@ -36,41 +36,38 @@ export default function About({ data }) {
         is also experienced in a wide range of fields such as Front-End Developing or Computer Graphics.
         He is technically proficient in:</h6>
           <div data-aos = 'fade-right'>
-            <p id = "skill">LATEX</p>
-            <p id = "skill">Arduino</p>
-            <p id = "skill">MATLAB</p>
-            <p id = "skill">Python</p>
-            <p id = "skill">Java</p>
-            <p id = "skill">C</p>
+            <p id = "gskill">LATEX</p>
+            <p id = "gskill">Arduino</p>
+            <p id = "gskill">MATLAB</p>
+            <p id = "gskill">Python</p>
+            <p id = "gskill">numpy/pandas</p>
+            <p id = "gskill">Machine Learning</p>
+            <p id = "gskill">Artificial Intelligence</p>
+            <p id = "gskill">C</p>
+            <p id = "skill">R</p>
             <p id = "skill">SolidWorks CAD</p>
-            <p id = "skill">Haskell</p>
-            <p id = "skill">Prolog</p>
+            <p id = "skill">Haskell/Prolog</p>
             <p id = "skill">HTML/CSS</p>
             <p id = "skill">Bootstrap</p>
             <p id = "skill">Bash/Shell</p>
             <p id = "skill">Git</p>
             <p id = "skill">MySQL</p>
             <p id = "skill">Flask</p>
-            <p id = "skill">Reinforcement Learning</p>
-            <p id = "skill">Artificial Intelligence</p>
-            <p id = "skill">Algorithms</p>
-            <p id = "skill">Data Structures</p>
-            <p id = "skill">C#</p>
-            <p id = "skill">Unity</p>
-            <p id = "skill">Shader/HLSL</p>
-            <p id = "skill">Adobe Photoshop</p>
-            <p id = "skill">Adobe Lightroom</p>
+            <p id = "skill">Algorithms/Data Structures</p>
+            <p id = "skill">Java</p>
+            <p id = "skill">C#/Unity/Shader/HLSL</p>
+            <p id = "skill">Adobe Photoshop/Lightroom</p>
           </div>
         <h6 data-aos = 'fade-right'>...and have working experience with (but not limited to):</h6>
           <div data-aos = 'fade-right'>
               <p id = "skill">Golang</p>
+              <p id = "skill">Computational Fluid Dynamics</p>
+              <p id = "skill">Blender</p>
+              <p id = "skill">nek5000</p>
               <p id = "skill">JavaScript</p>
               <p id = "skill">React</p>
               <p id = "skill">Gatsby</p>
               <p id = "skill">GraphQL</p>
-              <p id = "skill">numpy</p>
-              <p id = "skill">pandas</p>
-              <p id = "skill">Machine Learning</p>
               <p id = "skill">Inventor CAD</p>
               <p id = "skill">Anisble</p>
               <p id = "skill">DevOps</p>
@@ -79,14 +76,14 @@ export default function About({ data }) {
             </div>
         <h6 data-aos = 'fade-right'>His working skills include:</h6>
           <div data-aos = 'fade-right'>
-              <p id = "skill">Responsibility</p>
-              <p id = "skill">Research</p>
-              <p id = "skill">Idea Initiative</p>
-              <p id = "skill">Organizational Leadership</p>
-              <p id = "skill">Project Management</p>
-              <p id = "skill">Rapid Learning</p>
-              <p id = "skill">Problem Solving</p>
-              <p id = "skill">Mentoring</p>
+              <p id = "gskill">Responsibility</p>
+              <p id = "gskill">Research</p>
+              <p id = "gskill">Idea Initiative</p>
+              <p id = "gskill">Organizational Leadership</p>
+              <p id = "gskill">Project Management</p>
+              <p id = "gskill">Rapid Learning</p>
+              <p id = "gskill">Problem Solving</p>
+              <p id = "gskill">Mentoring</p>
               <p id = "skill">Tutoring</p>
             </div>
       
