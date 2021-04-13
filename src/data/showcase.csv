@@ -1,6 +1,8 @@
 ﻿Title,Stack,Contributor,T,Description,Url
 Gravity Current Simulation,"numpy,pandas,xarray,pymech,Blender,nek5000,Paraview",None,Jan-21,"Working with current data to retrieve information, part of a research project by Professor Andrew Ooi.",https://github.com/tuankhoin/Gravity-Current-Data-Simulation
+COVID-19 Prediction in Vietnam with SEIHCDRO Modelling,"R,shiny,Python",Hoang Anh Ngo,Jan-21,Using SEIHCDRO to predict the outcome of COVID-19 Statistics in Vietnam and build an interactive tool website. Project is currently not on development.,https://tuankhoin.shinyapps.io/SEIHCDRO-shiny-deployment/
 Prolog Problem Solving,Prolog,None,Dec-20,Using logic programming to solve the classic problems or card games,https://github.com/tuankhoin/Prolog-Problem-Solving
+WARMAN 2020 Competition,"Arduino,CAD,SolidWorks,C,LaTeX","Justin Lee, Ming Hao Yong, Nithin Daniel Sundram",Oct-20,Developed the final product for the 2020 WARMAN Robotic Competition,https://github.com/tuankhoin/WARMAN-2020
 Toilet Pandemia,"C#,Unity,ShaderLab,HLSL,Photoshop","Huy Luu, Long Nguyen, Angus Hudson",Nov-20,"An FPS survival game in the COVID era, starting you as the manager",https://github.com/tuankhoin/toilet-pandemia
 Portfolio Website,"HTML/CSS,Bootstrap,JavaScript,React,Gatsby,GraphQL",None,Jul-20,"This website itself, used as a protfolio extension to personal CV.",/
 Expendibots by Boomers,"Python,numpy",Nicholas Wong,May-20,"Major project of Artificial Intelligence (COMP30024), which purpose is to strategically create an AI agent that plays the custom board game Expendibots.",https://github.com/tuankhoin/AI-Project-B
