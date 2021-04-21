@@ -33,7 +33,7 @@ export default function About({ data }) {
 
         <h4 data-aos = 'fade-right'>Skills</h4>
         <h6 data-aos = 'fade-right'>Other than the major skills in robotics engineering and AI, Khoi
-        is also experienced in a wide range of fields such as Front-End Developing or Computer Graphics.
+        is also experienced in a wide range of fields such as Software Developing or Computer Graphics.
         He is technically proficient in:</h6>
           <div data-aos = 'fade-right'>
             <p id = "gskill">LATEX</p>
