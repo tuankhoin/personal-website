@@ -15,6 +15,7 @@ export default function Photography({ data }) {
 
 
         <p id="start" style={{padding:"20px 0px"}}>Welcome to my journey. I hope you enjoy wandering around here.</p>
+        <p id="start" style={{padding:"20px 0px"}}>Tips: Squeeze the window sides if you want to see more</p>
         <p> </p>
 
       {data.allPhotosCsv.edges.map(({ node }) => (
