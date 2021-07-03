@@ -20,10 +20,10 @@ export default function About({ data }) {
 
         <h4 data-aos = 'fade-right'>Introduction</h4>
         <p data-aos = 'fade-right'>
-          Khoi is currently in his 3rd year at The University of Melbourne, finishing his undergraduate degree in 
+          Khoi is currently studying at The University of Melbourne, finishing his undergraduate degree in 
           Mechatronics Systems while concurrently doing Computing subjects. He is interested in anything that
-          invovles automation: robotics, reinforcement learning, automation agents and heaps. He have experienced with, but not 
-          limited to, game-playing agents, server automation and research.
+          invovles automation, most specifically general Machine Learning and its applications in robotics or control. He have experienced with, but not 
+          limited to, game-playing agents, server automation and research that involves data engineering.
         </p>
         <p data-aos = 'fade-right'>
           Besides sitting with the laptop, Khoi also enjoys taking photographs on hiking or mountain biking
@@ -32,8 +32,8 @@ export default function About({ data }) {
         </p>
 
         <h4 data-aos = 'fade-right'>Skills</h4>
-        <h6 data-aos = 'fade-right'>Other than the major skills in robotics engineering and AI, Khoi
-        is also experienced in a wide range of fields such as Software Developing or Computer Graphics.
+        <h6 data-aos = 'fade-right'>Other than the major skills in robotics engineering and Machine Learning, Khoi
+        is also experienced in a wide range of fields.
         He is technically proficient in:</h6>
           <div data-aos = 'fade-right'>
             <p id = "gskill">LATEX</p>
@@ -41,9 +41,11 @@ export default function About({ data }) {
             <p id = "gskill">MATLAB</p>
             <p id = "gskill">Python</p>
             <p id = "gskill">numpy/pandas</p>
-            <p id = "gskill">Machine Learning</p>
-            <p id = "gskill">Artificial Intelligence</p>
-            <p id = "gskill">C</p>
+            <p id = "gskill">Big Data</p>
+            <p id = "gskill">Natural Language Processing</p>
+            <p id = "gskill">AI Agents</p>
+            <p id = "skill">Deep Learning</p>
+            <p id = "skill">C</p>
             <p id = "skill">R</p>
             <p id = "skill">SolidWorks CAD</p>
             <p id = "skill">Haskell/Prolog</p>
