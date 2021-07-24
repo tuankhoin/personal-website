@@ -20,9 +20,9 @@ export default function About({ data }) {
 
         <h4 data-aos = 'fade-right'>Introduction</h4>
         <p data-aos = 'fade-right'>
-          Khoi is currently studying at The University of Melbourne, finishing his undergraduate degree in 
-          Mechatronics Systems while concurrently doing Computing subjects. He is interested in anything that
-          invovles automation, most specifically general Machine Learning and its applications in robotics or control. He have experienced with, but not 
+          Khoi is currently studying at The University of Melbourne, doing his Masters in 
+          Mechatronics Systems while concurrently taking Computing subjects. He is interested in anything that
+          invovles automation, most specifically general Machine Learning and its applications in robotics, control or real life problems. He have experienced with, but not 
           limited to, game-playing agents, server automation and research that involves data engineering.
         </p>
         <p data-aos = 'fade-right'>
