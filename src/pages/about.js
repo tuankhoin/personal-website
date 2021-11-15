@@ -41,10 +41,12 @@ export default function About({ data }) {
             <p id = "gskill">MATLAB</p>
             <p id = "gskill">Python</p>
             <p id = "gskill">numpy/pandas</p>
+            <p id = "gskill">Git</p>
+            <p id = "gskill">Computer Vision</p>
+            <p id = "gskill">Deep Learning</p>
             <p id = "gskill">Big Data</p>
             <p id = "gskill">Natural Language Processing</p>
             <p id = "gskill">AI Agents</p>
-            <p id = "skill">Deep Learning</p>
             <p id = "skill">C</p>
             <p id = "skill">R</p>
             <p id = "skill">SolidWorks CAD</p>
@@ -52,7 +54,6 @@ export default function About({ data }) {
             <p id = "skill">HTML/CSS</p>
             <p id = "skill">Bootstrap</p>
             <p id = "skill">Bash/Shell</p>
-            <p id = "skill">Git</p>
             <p id = "skill">MySQL</p>
             <p id = "skill">Flask</p>
             <p id = "skill">Algorithms/Data Structures</p>
@@ -68,6 +69,7 @@ export default function About({ data }) {
               <p id = "skill">nek5000</p>
               <p id = "skill">JavaScript</p>
               <p id = "skill">React</p>
+              <p id = "skill">Node.JS</p>
               <p id = "skill">Gatsby</p>
               <p id = "skill">GraphQL</p>
               <p id = "skill">Inventor CAD</p>

@@ -10,7 +10,7 @@ export default function Home() {
     <Layout>
       <Helmet><link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" /><title>Hello! I'm Khoi</title></Helmet>
       <Container><Header headerText="Hello stranger!" caption = "I know my UI is crap. But let's just get started, shall we?"
-      children={<a href="#start" className="btn btn-info" role="button">Let's scroll down!</a>} />
+      children={<a href="#start" className="btn btn-info" role="button">Scroll down!</a>} />
       </Container>
       <section id = "start" style={{padding: "0%", width: "100%", marginLeft:"0%",borderRadius:0,boxShadow:"none"}}>
         <p style={{fontSize:'1.2em', color:'rgb(6, 11, 35)'}}>Select one: </p>
