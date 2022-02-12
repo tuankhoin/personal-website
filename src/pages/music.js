@@ -17,7 +17,7 @@ export default function Music() {
         <div style={{textAlign : "center"}}>
 
           <div className='vid'>
-          <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FUltimateDasher%2Fvideos%2F1049420142236694%2F&show_text=false&width=560&t=0"style="border:none;overflow:hidden" scrolling="no" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+          <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FUltimateDasher%2Fvideos%2F1049420142236694%2F&show_text=false&width=560&t=0" scrolling="no" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
           </div>
           
           <div className='vid'>
