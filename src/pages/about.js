@@ -22,13 +22,11 @@ export default function About({ data }) {
         <p data-aos = 'fade-right'>
           Khoi is currently studying at The University of Melbourne, doing his Masters in 
           Mechatronics Systems while concurrently taking Computing subjects. He is interested in anything that
-          invovles automation, most specifically general Machine Learning and its applications in robotics, control or real life problems. He have experienced with, but not 
-          limited to, game-playing agents, server automation and research that involves data engineering.
+          invovles automation, most specifically general Machine Learning/Computer Vision and its applications in robotics, control or real life problems. He have experienced with, but not 
+          limited to, Computer Vision/Deep Learning model development, modelling websites, game-playing agents, server automation and research that involves ML/data engineering in general.
         </p>
         <p data-aos = 'fade-right'>
-          Besides sitting with the laptop, Khoi also enjoys taking photographs on hiking or mountain biking
-          trips, or jam some notes with his guitar. So feel free to ask him if you want to play some music
-          on the mountain peaks.
+          Besides sitting with the laptop, Khoi also enjoys taking photographs on hiking trips (and in the past, mountain biking. I'm 22 now, getting old and cranky), or jam some music with his guitar (also a bit on bass, flutes, harmonica or percussions. Piano also if intro of Still D.R.E counts).
         </p>
 
         <h4 data-aos = 'fade-right'>Skills</h4>
@@ -88,7 +86,7 @@ export default function About({ data }) {
               <p id = "gskill">Rapid Learning</p>
               <p id = "gskill">Problem Solving</p>
               <p id = "gskill">Mentoring</p>
-              <p id = "skill">Tutoring</p>
+              <p id = "gskill">Tutoring</p>
             </div>
       
       </section>
