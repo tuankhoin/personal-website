@@ -20,41 +20,38 @@ export default function About({ data }) {
 
         <h4 data-aos = 'fade-right'>Introduction</h4>
         <p data-aos = 'fade-right'>
-          Khoi is currently studying at The University of Melbourne, doing his Masters in 
-          Mechatronics Systems while concurrently taking Computing subjects. He is interested in anything that
-          invovles automation, most specifically general Machine Learning/Computer Vision and its applications in robotics, control or real life problems. He have experienced with, but not 
+          I am currently studying at The University of Melbourne, doing Masters in 
+          Mechatronics Systems while concurrently taking few Machine Learning subjects. I am interested in anything that
+          invovles automation, most specifically general Machine Learning/Computer Vision and its applications in robotics, control or real life problems. I have experienced with, but not 
           limited to, Computer Vision/Deep Learning model development, modelling websites, game-playing agents, server automation and research that involves ML/data engineering in general.
         </p>
         <p data-aos = 'fade-right'>
-          Besides sitting with the laptop, Khoi also enjoys taking photographs on hiking trips (and in the past, mountain biking. I'm 22 now, getting old and cranky), or jam some music with his guitar (also a bit on bass, flutes, harmonica or percussions. Piano also if intro of Still D.R.E counts).
+          Besides sitting with the laptop, I also enjoy taking photographs on hiking/stargazing trips (and in the past, mountain biking), or jam some notes with my guitar (also a bit on bass, flutes, harmonica or percussions. Piano also if intro of Still D.R.E counts).
         </p>
 
         <h4 data-aos = 'fade-right'>Skills</h4>
-        <h6 data-aos = 'fade-right'>Other than the major skills in robotics engineering and Machine Learning, Khoi
-        is also experienced in a wide range of fields.
-        He is technically proficient in:</h6>
+        <h6 data-aos = 'fade-right'>Other than the major skills in robotics engineering and Machine Learning, I
+        am also experienced in a wide range of fields.
+        I am technically proficient in:</h6>
           <div data-aos = 'fade-right'>
-            <p id = "gskill">LATEX</p>
+            <p id = "gskill">ROS</p>
+            <p id = "gskill">Computer Vision</p>
+            <p id = "gskill">Deep Learning</p>
+            <p id = "gskill">Reinforcement Learning</p>
+            <p id = "gskill">Linux</p>
+            <p id = "gskill">LaTeX</p>
             <p id = "gskill">Arduino</p>
             <p id = "gskill">MATLAB</p>
             <p id = "gskill">Python</p>
-            <p id = "gskill">numpy/pandas</p>
             <p id = "gskill">Git</p>
-            <p id = "gskill">Computer Vision</p>
-            <p id = "gskill">Deep Learning</p>
-            <p id = "gskill">Big Data</p>
-            <p id = "gskill">Natural Language Processing</p>
-            <p id = "gskill">AI Agents</p>
             <p id = "skill">C</p>
             <p id = "skill">R</p>
             <p id = "skill">SolidWorks CAD</p>
             <p id = "skill">Haskell/Prolog</p>
             <p id = "skill">HTML/CSS</p>
             <p id = "skill">Bootstrap</p>
-            <p id = "skill">Bash/Shell</p>
             <p id = "skill">MySQL</p>
             <p id = "skill">Flask</p>
-            <p id = "skill">Algorithms/Data Structures</p>
             <p id = "skill">Java</p>
             <p id = "skill">C#/Unity/Shader/HLSL</p>
             <p id = "skill">Adobe Photoshop/Lightroom</p>
@@ -76,7 +73,7 @@ export default function About({ data }) {
               <p id = "skill">CI/CD</p>
               <p id = "skill">Docker</p>
             </div>
-        <h6 data-aos = 'fade-right'>His working skills include:</h6>
+        <h6 data-aos = 'fade-right'>My working skills include:</h6>
           <div data-aos = 'fade-right'>
               <p id = "gskill">Responsibility</p>
               <p id = "gskill">Research</p>
