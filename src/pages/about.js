@@ -26,13 +26,13 @@ export default function About({ data }) {
           limited to, Computer Vision/Deep Learning model development, modelling websites, game-playing agents, server automation and research that involves ML/data engineering in general.
         </p>
         <p data-aos = 'fade-right'>
-          Besides sitting with the laptop, I also enjoy taking photographs on hiking/stargazing trips (and in the past, mountain biking), or jam some notes with my guitar (also a bit on bass, flutes, harmonica or percussions. Piano also if intro of Still D.R.E counts).
+          Besides sitting with the laptop, I also enjoy taking photographs on hiking/stargazing trips (and in the past, mountain biking), or fiddle around with my guitar (and few other instruments).
         </p>
 
         <h4 data-aos = 'fade-right'>Skills</h4>
-        <h6 data-aos = 'fade-right'>Other than the major skills in robotics engineering and Machine Learning, I
-        am also experienced in a wide range of fields.
-        I am technically proficient in:</h6>
+        <h6 data-aos = 'fade-right'>
+        I am experienced in a wide range of fields and skills relating to robotics engineering and Machine Learning.
+        Specifically, I am technically proficient in:</h6>
           <div data-aos = 'fade-right'>
             <p id = "gskill">ROS</p>
             <p id = "gskill">Computer Vision</p>
@@ -44,6 +44,7 @@ export default function About({ data }) {
             <p id = "gskill">MATLAB</p>
             <p id = "gskill">Python</p>
             <p id = "gskill">Git</p>
+            <p id = "skill">C++</p>
             <p id = "skill">C</p>
             <p id = "skill">R</p>
             <p id = "skill">SolidWorks CAD</p>
