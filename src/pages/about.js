@@ -28,6 +28,9 @@ export default function About({ data }) {
         <p data-aos = 'fade-right'>
           Besides sitting with the laptop, I also enjoy taking photographs on hiking/stargazing trips (and in the past, mountain biking), or fiddle around with my guitar (and few other instruments).
         </p>
+        <p data-aos = 'fade-right'>
+          You can have a look at my CV <a href='https://tuankhoin.github.io/tuankhoin/CV-Khoi%20Nguyen%209-2023.pdf'>here</a>.
+        </p>
 
         <h4 data-aos = 'fade-right'>Skills</h4>
         <h6 data-aos = 'fade-right'>
