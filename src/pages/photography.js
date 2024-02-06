@@ -21,7 +21,7 @@ export default function Photography({ data }) {
       {data.allPhotosCsv.edges.map(({ node }) => (
           <div className="row"  key = {node.id}>
             <div className="col-lg img"
-            style={{backgroundImage:"url(https://drive.google.com/uc?export=view&id="+node.id+")",
+            style={{backgroundImage:"url(https://drive.google.com/thumbnail?id="+node.id+"&sz=w1000)",
                     backgroundPositionY: node.pad}}>
               <Link to={node.path} target="_blank" className="not-active">
                 <h5 style = {{display: "inline"}}>{node.title} </h5>
