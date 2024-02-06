@@ -20,8 +20,7 @@ export default function About({ data }) {
 
         <h4 data-aos = 'fade-right'>Introduction</h4>
         <p data-aos = 'fade-right'>
-          I just gradutated at The University of Melbourne, with a Masters of Engineering 
-          (Mechatronics). During study, I concurrently took a few Machine Learning subjects as well. I am interested in anything that
+          I just gradutated at The University of Melbourne, with a Masters of Engineering in Mechatronics. During my studies, I concurrently took Machine Learning subjects as well. I am interested in anything that
           invovles automation, most specifically general Machine Learning/Computer Vision and its applications in robotics, control or real life problems. I have experienced with, but not 
           limited to, Computer Vision/Deep Learning model development, modelling websites, game-playing agents, server automation and research that involves ML/data engineering in general.
         </p>
@@ -58,7 +57,7 @@ export default function About({ data }) {
             <p id = "skill">Flask</p>
             <p id = "skill">Java</p>
             <p id = "skill">C#/Unity/Shader/HLSL</p>
-            <p id = "skill">Adobe Photoshop/Lightroom</p>
+            <p id = "gskill">Adobe Photoshop/Lightroom</p>
           </div>
         <h6 data-aos = 'fade-right'>...and have working experience with (but not limited to):</h6>
           <div data-aos = 'fade-right'>
