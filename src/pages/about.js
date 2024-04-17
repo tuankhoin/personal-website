@@ -5,6 +5,9 @@ import { graphql } from "gatsby"
 import { Helmet } from "react-helmet"
 import Container from "../components/container"
 
+const images = require.context('../images/logos', false, /\.svg$/);
+const imageList = images.keys().map(image => images(image));
+
 export default function About({ data }) {
   console.log(data)
   return (
@@ -88,7 +91,10 @@ export default function About({ data }) {
               <p id = "gskill">Mentoring</p>
               <p id = "gskill">Tutoring</p>
             </div>
-      
+        <h4>Notables that I have worked with:</h4>
+        {imageList.map((image, index) =>   
+              <img data-aos = 'fade-right' key={index} src={image} alt="info" height="100" style = {{padding:10}}></img>
+            )}
       </section>
 
       <h4>Awards</h4>
