@@ -23,15 +23,18 @@ export default function About({ data }) {
 
         <h4 data-aos = 'fade-right'>Introduction</h4>
         <p data-aos = 'fade-right'>
-          I just gradutated at The University of Melbourne, with a Masters of Engineering in Mechatronics. During my studies, I concurrently took Machine Learning subjects as well. I am interested in anything that
+          I gradutated at The University of Melbourne, with a Masters of Engineering in Mechatronics. During my studies, I concurrently took Machine Learning subjects as well. I am interested in anything that
           invovles automation, most specifically general Machine Learning/Computer Vision and its applications in robotics, control or real life problems. I have experienced with, but not 
           limited to, Computer Vision/Deep Learning model development, modelling websites, game-playing agents, server automation and research that involves ML/data engineering in general.
         </p>
         <p data-aos = 'fade-right'>
-          Besides sitting with the laptop, I also enjoy taking photographs on hiking/stargazing trips (and in the past, mountain biking), or fiddle around with my guitar (and few other instruments).
+          Throughout numerous experiences, my interests narrowed down into inventing out ideas that can foster good businesses and bring meaningful contributions to the society. That is also why I decided to go back to my home country Vietnam in 2024. I'm starting everything from scratch, and still have a lot to learn.
         </p>
         <p data-aos = 'fade-right'>
-          You can have a look at my CV <a href='https://tuankhoin.github.io/tuankhoin/CV-Khoi%20Nguyen%209-2023.pdf'>here</a>.
+          Besides sitting with the laptop, I also enjoy taking photographs on hiking/stargazing trips (and in the past, mountain biking), or fiddle around with my guitar (and few other instruments). Recently I started boxing as well.
+        </p>
+        <p data-aos = 'fade-right'>
+          You can have a look at my CV <a href='https://tuankhoin.github.io/tuankhoin/Khoi%20CV%20-%20EN.pdf'>here</a>.
         </p>
 
         <h4 data-aos = 'fade-right'>Skills</h4>

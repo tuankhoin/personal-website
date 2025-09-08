@@ -15,6 +15,7 @@ export default function Photography({ data }) {
 
 
         <p id="start" style={{padding:"20px 0px"}}>Welcome to my journey memento. I hope you enjoy wandering around here.</p>
+        <p id="start" style={{padding:"20px 0px"}}>Note: I have been becoming more and more lazy recently. If you want to see more up-to-date gallery, my Instagram is <a href='https://instagram.com/journeyofkhoi'>journeyofkhoi</a>.</p>
         {/* <p id="start" style={{padding:"20px 0px"}}>Tips: Squeeze the window sides if you want to see more</p> */}
         <p> </p>
 
